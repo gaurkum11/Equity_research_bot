@@ -13,12 +13,14 @@ Features
 3. Integrates with a HuggingFace LLM endpoint for response generation.
 4. Streamlit-based UI for an interactive chat experience.
 
-Setup Instructions
 
-1. Create and Activate a Virtual Environment
-   Using Conda:
+## Setup Instructions
+
+1. **Create and Activate a Virtual Environment Using Conda:**  
+   ```sh
    conda create --name equitybot python=3.11 -y
    conda activate equitybot
+
 
 3. Install Dependencies
    pip install -r requirements.txt
