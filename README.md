@@ -11,7 +11,7 @@ Features
 1. Uses FAISS for efficient similarity search.
 2. Employs HuggingFace's sentence-transformer model for embeddings.
 3. Integrates with a HuggingFace LLM endpoint for response generation.
-4.Streamlit-based UI for an interactive chat experience.
+4. Streamlit-based UI for an interactive chat experience.
 
 Setup Instructions
 
@@ -44,10 +44,8 @@ HF_TOKEN=your_huggingface_api_token_here
 streamlit run chatbot.py
 
 Significance and Impact :
-1. EquityBot enhances financial analysis by:
-Providing instant responses to equity research queries.
-2. Leveraging AI for precise, context-aware insights.
-Reducing manual research time for analysts.
+1. EquityBot enhances financial analysis by: Providing instant responses to equity research queries.
+2. Leveraging AI for precise, context-aware insights. 
 
 
 
