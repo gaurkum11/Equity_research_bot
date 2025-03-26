@@ -22,22 +22,18 @@ Features
    conda activate equitybot
 
 
-3. Install Dependencies
+3. **Install Dependencies**
+   ```sh
    pip install -r requirements.txt
-   Ensure that your requirements.txt includes:
-    streamlit
-    langchain
-    langchain_community
-    langchain_huggingface
-    dotenv
-    faiss-cpu
-    sentence-transformers
 
-3. Set Up Environment Variables
+
+3. **Set Up Environment Variables:**
    Create a .env file and add your Hugging Face API token:
+   ```sh
    HF_TOKEN=your_huggingface_api_token_here
 
-5. Run the Chatbot
+5. **Run the Chatbot**
+   ```sh
    streamlit run chatbot.py
 
 Significance and Impact :
