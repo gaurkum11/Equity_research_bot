@@ -16,32 +16,27 @@ Features
 Setup Instructions
 
 1. Create and Activate a Virtual Environment
-Using Conda:
-conda create --name equitybot python=3.9 -y
-conda activate equitybot
+   Using Conda:
+   conda create --name equitybot python=3.11 -y
+   conda activate equitybot
 
-2. Install Dependencies
-
-pip install -r requirements.txt
-
-Ensure that your requirements.txt includes:
-streamlit
-langchain
-langchain_community
-langchain_huggingface
-dotenv
-faiss-cpu
-sentence-transformers
+3. Install Dependencies
+   pip install -r requirements.txt
+   Ensure that your requirements.txt includes:
+    streamlit
+    langchain
+    langchain_community
+    langchain_huggingface
+    dotenv
+    faiss-cpu
+    sentence-transformers
 
 3. Set Up Environment Variables
+   Create a .env file and add your Hugging Face API token:
+   HF_TOKEN=your_huggingface_api_token_here
 
-Create a .env file and add your Hugging Face API token:
-
-HF_TOKEN=your_huggingface_api_token_here
-
-4. Run the Chatbot
-
-streamlit run chatbot.py
+5. Run the Chatbot
+   streamlit run chatbot.py\
 
 Significance and Impact :
 1. EquityBot enhances financial analysis by: Providing instant responses to equity research queries.
