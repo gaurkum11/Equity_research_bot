@@ -36,7 +36,7 @@ Setup Instructions
    HF_TOKEN=your_huggingface_api_token_here
 
 5. Run the Chatbot
-   streamlit run chatbot.py\
+   streamlit run chatbot.py
 
 Significance and Impact :
 1. EquityBot enhances financial analysis by: Providing instant responses to equity research queries.
